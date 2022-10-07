@@ -1,0 +1,96 @@
+@font-face {
+  font-family: scoreFont;
+  src: url(CursedTimerULiL.ttf);
+}
+
+body {
+    margin: 0;
+}
+
+.bodyContainer {
+    display: flex;
+    flex-direction: column;
+    background: #4C1D95;
+    width: 575px;
+    height: 385px;
+}
+
+.reset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    width: 300px;
+    height: 60px;
+    font-family: Verdana;
+    font-size: 30px;
+    
+}
+
+#resetBtn{
+    width: 240px;
+    background: #FBBF24;
+    border: 2px solid #4C1D95;
+    border-radius: 5px;
+    color: #4C1D95;
+    box-shadow: 2px 2px #4C1D95;
+}
+
+.records {
+    font-family: scoreFont;
+    font-size: 18px;
+    color: #4C1D95;
+}
+
+.title {
+    font-family: Verdana;
+    font-size: 40px;
+    color: #EEEEEE;
+    margin: 0;
+}
+
+
+.score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FBBF24;
+    width: 155px;
+    height: 120px;
+    border-radius: 5px;
+    font-family: scoreFont;
+    font-size: 90px;
+    color: #4C1D95;
+    margin: 20px 0 25px 0;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.sub-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 68px 50px;
+}
+
+.btn{
+    border: 2px solid #F5F3FF;
+    background: #4C1D95;
+    color: #F5F3FF;
+    width: 45px;
+    height: 45px;   
+    border-radius: 5px;
+    margin: 0 5px;
+    font-family: scoreFont;
+    font-size: 18px;
+    text-align: center;
+
+}
